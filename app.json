@@ -10,13 +10,17 @@
     "splash": {
       "backgroundColor": "#1a1a2e"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.dicto.app",
       "infoPlist": {
         "NSMicrophoneUsageDescription": "Dicto needs microphone access to record meetings.",
-        "UIBackgroundModes": ["audio"]
+        "UIBackgroundModes": [
+          "audio"
+        ]
       }
     },
     "android": {
@@ -38,7 +42,8 @@
         {
           "microphonePermission": "Dicto needs microphone access to record meetings."
         }
-      ]
+      ],
+      "expo-secure-store"
     ]
   }
 }
