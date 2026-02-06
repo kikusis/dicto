@@ -44,5 +44,11 @@
     "eslint": "^8.57.0",
     "typescript": "~5.3.0"
   },
+  "overrides": {
+    "ajv": "^8.17.1",
+    "ajv-keywords": {
+      "ajv": "^8.17.1"
+    }
+  },
   "private": true
 }
